@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Un4 POS Restaurant auto-update manifest. Written by deploy/release.ps1 - do not edit by hand. -->
 <item>
-  <version>2.1.0.1</version>
-  <url>https://github.com/mohammedhayde/un4pos-updates/releases/download/v2.1.0.1/Un4PosRestaurant_Update_2.1.0.1.exe</url>
-  <changelog>https://github.com/mohammedhayde/un4pos-updates/releases/tag/v2.1.0.1</changelog>
+  <version>2.1.0.2</version>
+  <url>https://github.com/mohammedhayde/un4pos-updates/releases/download/v2.1.0.2/Un4PosRestaurant_Update_2.1.0.2.exe</url>
+  <changelog>https://github.com/mohammedhayde/un4pos-updates/releases/tag/v2.1.0.2</changelog>
   <mandatory>true</mandatory>
-  <checksum algorithm="SHA256">D2023FB47BD112741318A173B69FDA18942343701F36C9BBF6D7EB7CC66C7B2F</checksum>
-  <notes>إصلاح: تحديث قاعدة البيانات كان يتوقف على بعض القواعد القديمة (Cannot drop the index IX_Shifts_OneOpenPerUser). صار التحديث يتجاوز الفهارس والمفاتيح المفقودة أو الموجودة مسبقاً. وإذا تعذّر تحديث القاعدة يفحص البرنامج وجود إصدار أحدث قبل الإغلاق.</notes>
-  <publishedAt>2026-10-29T16:39:00Z</publishedAt>
+  <checksum algorithm="SHA256">0FD1523CBE3C6871AE90D444533D99B1533262BDA46B19DB8989B4C4E5B39DA3</checksum>
+  <notes>إصلاح: القواعد القديمة جداً ينقصها جداول وأعمدة وفهارس رغم أن سجلّها يقول إنها موجودة (مثل CashDrawerMovements). صار البرنامج يكمّل ما ينقصها قبل تطبيق التحديثات، دون حذف أو تغيير أي بيانات.</notes>
+  <publishedAt>2026-10-29T17:40:33Z</publishedAt>
 </item>
