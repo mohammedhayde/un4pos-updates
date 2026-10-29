@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Un4 POS Restaurant auto-update manifest. Written by deploy/release.ps1 - do not edit by hand. -->
 <item>
-  <version>2.1.0.2</version>
-  <url>https://github.com/mohammedhayde/un4pos-updates/releases/download/v2.1.0.2/Un4PosRestaurant_Update_2.1.0.2.exe</url>
-  <changelog>https://github.com/mohammedhayde/un4pos-updates/releases/tag/v2.1.0.2</changelog>
+  <version>2.1.0.3</version>
+  <url>https://github.com/mohammedhayde/un4pos-updates/releases/download/v2.1.0.3/Un4PosRestaurant_Update_2.1.0.3.exe</url>
+  <changelog>https://github.com/mohammedhayde/un4pos-updates/releases/tag/v2.1.0.3</changelog>
   <mandatory>true</mandatory>
-  <checksum algorithm="SHA256">0FD1523CBE3C6871AE90D444533D99B1533262BDA46B19DB8989B4C4E5B39DA3</checksum>
-  <notes>إصلاح: القواعد القديمة جداً ينقصها جداول وأعمدة وفهارس رغم أن سجلّها يقول إنها موجودة (مثل CashDrawerMovements). صار البرنامج يكمّل ما ينقصها قبل تطبيق التحديثات، دون حذف أو تغيير أي بيانات.</notes>
-  <publishedAt>2026-10-29T17:40:33Z</publishedAt>
+  <checksum algorithm="SHA256">15C5D3D8DD0A56631DA15A9B2EC4DF787405FDA4A689E15800708EE8052C2E6E</checksum>
+  <notes>إصلاحات الحسابات والحالات: تقريب المبالغ إلى دينار كامل (إعداد «تقريب المبالغ»)، تقارير الأيام السابقة لا تتغير بعد إلغاء لاحق، الأرباح والخسائر تحسب التكلفة في يوم البيع، حد الخصم يُعاد فحصه عند حذف أصناف، رسوم التوصيل من المنطقة، الدفع في وردية الكاشير المفتوحة فقط، الطاولة التي عليها حساب تظهر مشغولة دائماً، طلبات Talabat غير المقبولة تُدار من لوحة طلبات فقط، الدفع وتحرير الطاولة وإغلاق الوردية تتم دفعة واحدة.</notes>
+  <publishedAt>2026-10-29T20:06:35Z</publishedAt>
 </item>
