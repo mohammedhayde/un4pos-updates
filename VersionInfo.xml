@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Un4 POS Restaurant auto-update manifest. Written by deploy/release.ps1 - do not edit by hand. -->
+<item>
+  <version>2.1.0.1</version>
+  <url>https://github.com/mohammedhayde/un4pos-updates/releases/download/v2.1.0.1/Un4PosRestaurant_Update_2.1.0.1.exe</url>
+  <changelog>https://github.com/mohammedhayde/un4pos-updates/releases/tag/v2.1.0.1</changelog>
+  <mandatory>true</mandatory>
+  <checksum algorithm="SHA256">D2023FB47BD112741318A173B69FDA18942343701F36C9BBF6D7EB7CC66C7B2F</checksum>
+  <notes>إصلاح: تحديث قاعدة البيانات كان يتوقف على بعض القواعد القديمة (Cannot drop the index IX_Shifts_OneOpenPerUser). صار التحديث يتجاوز الفهارس والمفاتيح المفقودة أو الموجودة مسبقاً. وإذا تعذّر تحديث القاعدة يفحص البرنامج وجود إصدار أحدث قبل الإغلاق.</notes>
+  <publishedAt>2026-10-29T16:39:00Z</publishedAt>
+</item>
