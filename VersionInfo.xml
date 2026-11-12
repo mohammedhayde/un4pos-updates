@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Un4 POS Restaurant auto-update manifest. Written by deploy/release.ps1 - do not edit by hand. -->
 <item>
-  <version>2.1.0.3</version>
-  <url>https://github.com/mohammedhayde/un4pos-updates/releases/download/v2.1.0.3/Un4PosRestaurant_Update_2.1.0.3.exe</url>
-  <changelog>https://github.com/mohammedhayde/un4pos-updates/releases/tag/v2.1.0.3</changelog>
+  <version>2.1.0.4</version>
+  <url>https://github.com/mohammedhayde/un4pos-updates/releases/download/v2.1.0.4/Un4PosRestaurant_Update_2.1.0.4.exe</url>
+  <changelog>https://github.com/mohammedhayde/un4pos-updates/releases/tag/v2.1.0.4</changelog>
   <mandatory>true</mandatory>
-  <checksum algorithm="SHA256">15C5D3D8DD0A56631DA15A9B2EC4DF787405FDA4A689E15800708EE8052C2E6E</checksum>
-  <notes>إصلاحات الحسابات والحالات: تقريب المبالغ إلى دينار كامل (إعداد «تقريب المبالغ»)، تقارير الأيام السابقة لا تتغير بعد إلغاء لاحق، الأرباح والخسائر تحسب التكلفة في يوم البيع، حد الخصم يُعاد فحصه عند حذف أصناف، رسوم التوصيل من المنطقة، الدفع في وردية الكاشير المفتوحة فقط، الطاولة التي عليها حساب تظهر مشغولة دائماً، طلبات Talabat غير المقبولة تُدار من لوحة طلبات فقط، الدفع وتحرير الطاولة وإغلاق الوردية تتم دفعة واحدة.</notes>
-  <publishedAt>2026-10-29T20:06:35Z</publishedAt>
+  <checksum algorithm="SHA256">3AFBD660BA3732F17201813FB8033CCB11F7D436D971F68E513C094639A6CEAB</checksum>
+  <notes>شاشات 15 إنش (1024×768): الشريط الجانبي يُطوى تلقائياً، كل النوافذ تتسع للشاشة (ومنها إغلاق الوردية)، نماذج قابلة للطي في الطلبات والمنتجات والعملاء، جداول أوضح في الورديات والمخزون. نسيت كلمة المرور: استعادة برمز من المتحدة للبرمجيات. متوسط الطلب بالدينار الكامل. إصلاح أوقات الطلب واسم السائق في لوحة التوصيل.</notes>
+  <publishedAt>2026-11-12T17:54:36Z</publishedAt>
 </item>
