@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Un4 POS Restaurant auto-update manifest. Written by deploy/release.ps1 - do not edit by hand. -->
 <item>
-  <version>2.1.0.4</version>
-  <url>https://github.com/mohammedhayde/un4pos-updates/releases/download/v2.1.0.4/Un4PosRestaurant_Update_2.1.0.4.exe</url>
-  <changelog>https://github.com/mohammedhayde/un4pos-updates/releases/tag/v2.1.0.4</changelog>
+  <version>2.1.0.5</version>
+  <url>https://github.com/mohammedhayde/un4pos-updates/releases/download/v2.1.0.5/Un4PosRestaurant_Update_2.1.0.5.exe</url>
+  <changelog>https://github.com/mohammedhayde/un4pos-updates/releases/tag/v2.1.0.5</changelog>
   <mandatory>true</mandatory>
-  <checksum algorithm="SHA256">3AFBD660BA3732F17201813FB8033CCB11F7D436D971F68E513C094639A6CEAB</checksum>
-  <notes>شاشات 15 إنش (1024×768): الشريط الجانبي يُطوى تلقائياً، كل النوافذ تتسع للشاشة (ومنها إغلاق الوردية)، نماذج قابلة للطي في الطلبات والمنتجات والعملاء، جداول أوضح في الورديات والمخزون. نسيت كلمة المرور: استعادة برمز من المتحدة للبرمجيات. متوسط الطلب بالدينار الكامل. إصلاح أوقات الطلب واسم السائق في لوحة التوصيل.</notes>
-  <publishedAt>2026-11-12T17:54:36Z</publishedAt>
+  <checksum algorithm="SHA256">B02AC1FA74BEE4995B2D769DC17276FA75C2B7B1766D169200996D9B71EE0021</checksum>
+  <notes>شاشات الكاشير الصغيرة 1024×768: تبويبات الإعدادات ثابتة، أزرار المستخدمين والبحث فيهم، نماذج الموظفين والعروض قابلة للطي، زر حفظ فاتورة الشراء ظاهر، أعمدة الطلبات والسائقين وتقرير طلبات كاملة. النوافذ المنبثقة تظهر في الوسط ويمكن تحريكها بالسحب. إصلاح نافذتي تغيير كلمة المرور وإعدادات السيرفر.</notes>
+  <publishedAt>2026-11-17T12:37:58Z</publishedAt>
 </item>
